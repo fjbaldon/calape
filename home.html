@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the Municipality of Calape, Bohol</title>
+
+    <!-- Google Fonts: Poppins for headings, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Final Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <a href="home.html" class="header-logo-link">
+                <img src="assets/images/calape-logo.png" alt="Calape Municipal Seal" class="header-logo" />
+                <div class="header-titles">
+                    <span class="province">PROVINCE OF BOHOL</span>
+                    <span class="municipality">Municipality of Calape</span>
+                </div>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#tourism">Tourism</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Officials <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="officials_2025-2028.html">Term 2025 - 2028</a>
+                            <a href="officials_2022-2025.html">Term 2022 - 2025</a>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">WELCOME TO CALAPE</h1>
+                <p class="hero-subtitle">A Gem in the Heart of Bohol</p>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h2 class="section-title">About Our Municipality</h2>
+            <div class="about-flex">
+                <div class="about-img-col">
+                    <img src="assets/images/history-building.jpg" alt="Historic Calape Municipal Building" class="about-img" />
+                </div>
+                <div class="about-content-col">
+                    <h3>History & Heritage</h3>
+                    <p>The Municipality of Calape was formally established in <b>1802</b>. Its name is linked to
+                        <i>"kalapi,"</i> a rattan type once abundant here, suggesting a history rich in craftsmanship.
+                        The town is also home to the <b>San Vicente Ferrer Parish Church</b>, a stunning Gothic-inspired
+                        structure and a designated <b>National Cultural Treasure</b>.</p>
+                    <h3>Geography & Demographics</h3>
+                    <ul>
+                        <li><b>Location:</b> 41.4 km from Tagbilaran City on the western coast of Bohol.</li>
+                        <li><b>Area:</b> 75.36 square kilometers across 33 barangays.</li>
+                        <li><b>Population:</b> 33,079 residents (2020 Census).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services">
+            <h2 class="section-title">Municipal Services</h2>
+            <div class="services-cards">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3 class="service-title">Business Permits</h3>
+                    <p class="service-desc">Streamlined application and renewal for local businesses.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-id-card"></i></div>
+                    <h3 class="service-title">Civil Registry</h3>
+                    <p class="service-desc">Issuance of birth, marriage, and death certificates.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-house-flag"></i></div>
+                    <h3 class="service-title">Property Tax</h3>
+                    <p class="service-desc">Efficient collection of real property taxes and fees.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-seedling"></i></div>
+                    <h3 class="service-title">Agricultural Support</h3>
+                    <p class="service-desc">Assistance and resources for local farmers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-heart-pulse"></i></div>
+                    <h3 class="service-title">Health & Sanitation</h3>
+                    <p class="service-desc">Promoting public health through accessible services.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3 class="service-title">Employment (PESO)</h3>
+                    <p class="service-desc">Connecting job seekers with opportunities.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TOURISM SECTION (RESTORED WITH ALL 6 CARDS) -->
+        <section id="tourism">
+            <h2 class="section-title">Tourism & Culture</h2>
+            <p class="section-subtitle">Discover the natural beauty and rich cultural heritage that Calape has to offer.
+            </p>
+            <div class="tourism-cards">
+                <div class="tourism-card">
+                    <img src="https://calape.ph/assets/church.jpg" alt="Calape Church" class="tourism-img" />
+                    <div class="tourism-content">
+                        <h3 class="tourism-title">Calape Church</h3>
+                        <p class="tourism-desc">A National Cultural Treasure with stunning Gothic-inspired architecture.
+                        </p>
+                    </div>
+                </div>
+                <div class="tourism-card">
+                    <img src="https://calape.ph/assets/causeway.jpg" alt="Pangangan Island" class="tourism-img" />
+                    <div class="tourism-content">
+                        <h3 class="tourism-title">Pangangan Island</h3>
+                        <p class="tourism-desc">Clear waters and white sand beaches, perfect for snorkeling and diving.
+                        </p>
+                    </div>
+                </div>
+                <div class="tourism-card">
+                    <img src="https://calape.ph/assets/market.jpg" alt="Public Market" class="tourism-img" />
+                    <div class="tourism-content">
+                        <h3 class="tourism-title">Public Market</h3>
+                        <p class="tourism-desc">Experience vibrant local life and savor fresh Boholano delicacies.</p>
+                    </div>
+                </div>
+                <div class="tourism-card">
+                    <img src="https://ak-d.tripcdn.com/images/1mc6n12000ce8o8az0AFA_R_960_660_R5_D.jpg"
+                        alt="H-Resort The (Coral) Cliff" class="tourism-img" />
+                    <div class="tourism-content">
+                        <h3 class="tourism-title">H-Resort The (Coral) Cliff</h3>
+                        <p class="tourism-desc">A family-friendly destination with pools, cottages, and beachfront
+                            access.</p>
+                    </div>
+                </div>
+                <div class="tourism-card">
+                    <img src="http://boundbohol.com/wp-content/uploads/2022/09/red-tierra-de-agaton-overlooking.jpg"
+                        alt="Red Tierra de Agaton" class="tourism-img" />
+                    <div class="tourism-content">
+                        <h3 class="tourism-title">Red Tierra de Agaton</h3>
+                        <p class="tourism-desc">A breathtaking overlooking spot ideal for sightseeing and photography.
+                        </p>
+                    </div>
+                </div>
+                <div class="tourism-card">
+                    <img src="https://i.ytimg.com/vi/wtgCkk-lNMw/maxresdefault.jpg" alt="Cielo Azul Resort"
+                        class="tourism-img" />
+                    <div class="tourism-content">
+                        <h3 class="tourism-title">Cielo Azul Resort</h3>
+                        <p class="tourism-desc">A serene beach resort offering peaceful views and relaxing vibes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS SECTION (RESTORED) -->
+        <section class="stats-section">
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <i class="fas fa-users stat-icon"></i>
+                    <div class="stat-value" data-target="33079">0</div>
+                    <div class="stat-label">Total Population (2020)</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-ruler-combined stat-icon"></i>
+                    <div class="stat-value" data-target="75.36">0</div>
+                    <div class="stat-label">Land Area (sq. km)</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-home stat-icon"></i>
+                    <div class="stat-value" data-target="33">0</div>
+                    <div class="stat-label">Barangays</div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-chart-line stat-icon"></i>
+                    <div class="stat-value" data-target="4">0</div>
+                    <div class="stat-label">Income Class</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION (RESTORED) -->
+        <section id="testimonials">
+            <h2 class="section-title">What People Say</h2>
+            <div class="testimonials-cards">
+                <div class="testimonial-card">
+                    <p>“As a 21-year-old student living here in Calape, I really appreciate how peaceful and safe our
+                        town is. The local programs for youth are very helpful and it makes me feel like we are truly
+                        part of the community. I’m proud to call this place my home.”</p>
+                    <div class="testimonial-author">– Marian B. Lohero</div>
+                </div>
+                <div class="testimonial-card">
+                    <p>“The local government is very responsive and the community events are always fun and engaging for
+                        everyone.”</p>
+                    <div class="testimonial-author">– John D.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <strong>Address:</strong>
+                            <span>Calape Municipal Hall, Desamparados, Calape, Bohol</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-text">
+                            <strong>Mayor's Office:</strong>
+                            <span>0977 802 0116</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-fire-extinguisher"></i>
+                        <div class="contact-text">
+                            <strong>Fire Station:</strong>
+                            <span>0963 532 8812</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-car-crash"></i>
+                        <div class="contact-text">
+                            <strong>MDRRMO:</strong>
+                            <span>0917 891 2234</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps?q=Calape+Bohol&output=embed" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#tourism">Tourism</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <p class="footer-copy">© 2025 Municipality of Calape. All content is in the public domain unless otherwise
+                stated.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+            hamburger.classList.toggle('open');
+        });
+        // Dropdown Click for Mobile
+        document.querySelectorAll('.dropdown .dropbtn').forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('open');
+                }
+            });
+        });
+
+        // Animated Stats Counter
+        function animateStatNumbers() {
+            const statValues = document.querySelectorAll('.stat-value');
+            statValues.forEach(el => {
+                const target = parseFloat(el.getAttribute('data-target'));
+                const isInt = Number.isInteger(target);
+                let current = 0;
+                const duration = 2000;
+                const stepTime = 20;
+                const steps = Math.ceil(duration / stepTime);
+                const increment = target / steps;
+
+                function update() {
+                    current += increment;
+                    if (current >= target) {
+                        el.textContent = isInt ? Math.round(target).toLocaleString() : target.toFixed(2);
+                    } else {
+                        el.textContent = isInt ? Math.round(current).toLocaleString() : current.toFixed(2);
+                        setTimeout(update, stepTime);
+                    }
+                }
+                update();
+            });
+        }
+
+        const statsSection = document.querySelector('.stats-section');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateStatNumbers();
+                    observer.unobserve(entry.target); // Animate only once
+                }
+            });
+        }, { threshold: 0.5 });
+        if (statsSection) observer.observe(statsSection);
+    </script>
+</body>
+
+</html>
