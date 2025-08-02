@@ -531,6 +531,8 @@ header {
 
 .contact-map {
     flex: 1.5;
+    /* This makes the map column stretch vertically as needed */
+    align-self: stretch;
 }
 
 .contact-info h3 {
@@ -576,7 +578,8 @@ header {
 .contact-map iframe {
     border-radius: var(--border-radius);
     width: 100%;
-    height: 400px;
+    height: 100%;
+    /* The fix is here! */
     border: 1px solid var(--border-color);
 }
 
@@ -831,13 +834,18 @@ footer {
     }
 
     /* Layout Stacking */
-    .about-flex,
     .contact-flex {
         flex-direction: column;
         gap: 2rem;
     }
 
+    .contact-map iframe {
+        height: 350px;
+        /* Give the map a fixed height on mobile */
+    }
+
     .about-flex {
+        flex-direction: column;
         gap: 2.5rem;
         /* Give a bit more space when stacked */
     }
